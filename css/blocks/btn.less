@@ -1,0 +1,32 @@
+// main: ../style.less
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.1rem 3rem;
+    
+    border: 1px solid @gray;
+    border-radius: 15px;
+    background: none;
+    cursor: pointer;
+    
+    font-family: inherit;
+    font-size: 1.06rem;
+    line-height: 1.1;
+    color: @black;
+    text-decoration: none;
+    text-align: center;
+    
+    transition: border-radius 0.3s linear,
+    background-color 0.3s linear;
+    
+    &:focus {
+        outline: none;
+    }
+    
+    &:hover {
+        border-radius: 30px;
+        background-color: @black;
+        color: @white;
+    }
+}
