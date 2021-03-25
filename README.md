@@ -1,2 +1,2 @@
 # stkudryashov.github.io
-My Little Portfolio Site
+My little portfolio site
